@@ -1,0 +1,136 @@
+/*Fuente*/
+
+@import url('https://fonts.googleapis.com/css2? familia= Montserrat:ital,peso@0,400;0,500;0,800;1,900 & display=swap');
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+body{
+    background-color: #80AF9A;
+}
+
+/*NavBar*/
+.logoNavb {
+    width: 14rem;
+
+}
+
+.fuenteNav {
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.fuenteNav li a:hover {
+    background-color: #80AF9A;
+    color: white;
+}
+
+/*Pagina de Home*/
+.imagenDeHome {
+    background-image: url(../Img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    ;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold
+    
+}
+/* Footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+
+/* Nuestras Plantas*/
+
+.tamañoCard{
+    width: 18rem;
+}
+
+/*Ubicacion y Contacto*/
+.mapa{
+    
+}
+.tamañoForm{
+    width: 18rem;
+}
+.fontF{
+    font-family:'Montserrat', sans-serif;
+}
+
+/*Estilo a Quienes Somos*/
+
+.contenedor{
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    " imagen  texto texto"
+    " imagenDos  textoDos textoDos"
+    ;
+gap: 20px 20px;
+}
+
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+.seccionUno{
+    grid-area: imagen;}
+    
+.seccionUno img{
+    width: 400px;
+    height: 400px;
+}
+.seccionDos{
+    grid-area: texto;
+    background-color: aliceblue;
+    border: solid black;
+}
+.seccionDos p {
+text-align: center;
+
+
+}
+.seccionTres {
+       grid-area: imagenDos;
+
+}
+.seccionTres img {
+    width: 400px;
+    height: 400px;
+}
+.seccionCuatro{
+    grid-area: textoDos;
+    background-color: aliceblue;
+    border: solid black;
+}
+
