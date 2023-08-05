@@ -8,10 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
+
 }
 
-body{
+body {
     background-color: #80AF9A;
 }
 
@@ -46,31 +46,35 @@ body{
     flex-direction: column;
     flex-grow: 1;
 }
-.colorDeTexto{
+
+.colorDeTexto {
     color: #fff;
-    }
-.tamañoDeTexto{
+}
+
+.tamañoDeTexto {
     font-size: 30px;
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
 }
-.boton a:hover{
+
+.boton a:hover {
     background-color: #40dd97;
 
 }
+
 h1 {
-    font-family:"Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
     ;
     color: white;
     font-size: 130px;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold
-    
 }
+
 /* Footer*/
-footer{
+footer {
     bottom: 0;
     left: 0;
     right: 0;
@@ -80,90 +84,176 @@ footer{
 
 /* Nuestras Plantas*/
 
-.tamañoCard{
+.txtH2 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 50px;
+}
+
+.txtPlanta {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #2d7f5a;
+    font-weight: 600;
+
+}
+
+.txtP{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+
+}
+.btnCard{
+    color:#fff;
+    background-color: #2d7f5a;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.conteinerMediaQ{
+
+}
+@media (max-width:300px){
+    .txtH2{
+  font-size: 30px;      
+    }
+    }
+
+   
+
+
+
+/*Ubicacion y Contacto*/
+.mapa {}
+
+.tamañoForm {
     width: 18rem;
 }
 
-/*Ubicacion y Contacto*/
-.mapa{
-    
-}
-.tamañoForm{
-    width: 18rem;
-}
-.fontF{
-    font-family:'Montserrat', sans-serif;
+.fontF {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*Estilo a Quienes Somos*/
 
-.contenedor{
+.contenedor {
     display: grid;
     grid-template-areas:
-    "header header header"
-    "nav nav nav"
-    " imagen  texto texto"
-    " imagenDos  textoDos textoDos"
+        "header header header"
+        "nav nav nav"
+        " imagen  texto texto"
+        " imagenDos  textoDos textoDos"
     ;
-gap: 20px 20px;
+    gap: 20px 20px;
 }
 
-header{
+header {
     grid-area: header;
 }
-nav{
+
+nav {
     grid-area: nav;
 }
-.seccionUno{
-    grid-area: imagen;}
-    
-.seccionUno img{
+
+.seccionUno {
+    grid-area: imagen;
+}
+
+.seccionUno img {
     width: 400px;
     height: 400px;
 }
-.seccionDos{
+
+.seccionDos {
     grid-area: texto;
     background-color: aliceblue;
     border: solid black;
 }
+
 .seccionDos p {
-text-align: center;
+    text-align: center;
 
 
 }
+
 .seccionTres {
-       grid-area: imagenDos;
+    grid-area: imagenDos;
 
 }
+
 .seccionTres img {
     width: 400px;
     height: 400px;
 }
-.seccionCuatro{
+
+.seccionCuatro {
     grid-area: textoDos;
     background-color: aliceblue;
     border: solid black;
 }
 
 /*Como Trabajamos*/
-.imagenDeCarrusel{
+.imagenDeCarrusel {
     width: 100vw;
-    
-}
-.textoCm{
-    justify-content: center;
-    text-align: center;
-   font-family:'Montserrat', sans-serif;
-   text-transform: uppercase;
-    
-}
-h2{font-weight: bold;
-    text-decoration: underline;
 
 }
-.videoCm{
+
+.textoCm {
     justify-content: center;
-    align-items:center;
-    border: double
-    ;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin: 17px;
+    padding: 10px;
+
 }
+.textP{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.videoCm {
+
+    border: double;
+}
+.videoFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:300px){
+    .textP{
+        font-size: 15px;
+        margin: -48px;
+        padding: 32px;
+    }
+    
+}
+
+@media (max-width:340px){
+   .videoCm{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding: 17px;
+   }
+    
+}
+@media (min-width:350px) and (max-width:700px){
+    .videoCm{
+     width: 500px;
+     height: 300px;
+     margin: 10px;
+     padding: 17px;
+    }
+     
+ }
