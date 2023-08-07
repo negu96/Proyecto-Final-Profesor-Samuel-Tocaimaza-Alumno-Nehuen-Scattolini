@@ -75,10 +75,8 @@ h1 {
 
 /* Footer*/
 footer {
-    bottom: 0;
-    left: 0;
-    right: 0;
-
+   
+background-color: rgb(57, 49, 49);
 }
 
 
@@ -88,7 +86,7 @@ footer {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .txtPlanta {
@@ -111,17 +109,6 @@ footer {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
 }
-.conteinerMediaQ{
-
-}
-@media (max-width:300px){
-    .txtH2{
-  font-size: 30px;      
-    }
-    }
-
-   
-
 
 
 /*Ubicacion y Contacto*/
@@ -134,6 +121,19 @@ footer {
 .fontF {
     font-family: 'Montserrat', sans-serif;
 }
+
+.star{
+    font-size: 32px;
+color: #bbb;
+transition: color 0.3s;
+cursor: pointer;
+}
+.star:hover{
+    color: gold;
+
+}
+
+
 
 /*Estilo a Quienes Somos*/
 
@@ -230,6 +230,17 @@ h2 {
     justify-content: center;
     align-items: center;
 }
+
+
+/*MEDIA QUERIS*/
+
+
+@media (max-width:300px){
+    .txtH2{
+  font-size: 30px;      
+    }
+    }
+
 @media (max-width:300px){
     .textP{
         font-size: 15px;
