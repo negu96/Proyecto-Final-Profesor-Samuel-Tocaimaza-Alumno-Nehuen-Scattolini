@@ -75,8 +75,8 @@ h1 {
 
 /* Footer*/
 footer {
-   
-background-color: rgb(57, 49, 49);
+
+    background-color: rgb(57, 49, 49);
 }
 
 
@@ -98,13 +98,14 @@ background-color: rgb(57, 49, 49);
 
 }
 
-.txtP{
+.txtP {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
 
 }
-.btnCard{
-    color:#fff;
+
+.btnCard {
+    color: #fff;
     background-color: #2d7f5a;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -122,13 +123,14 @@ background-color: rgb(57, 49, 49);
     font-family: 'Montserrat', sans-serif;
 }
 
-.star{
+.star {
     font-size: 32px;
-color: #bbb;
-transition: color 0.3s;
-cursor: pointer;
+    color: #bbb;
+    transition: color 0.3s;
+    cursor: pointer;
 }
-.star:hover{
+
+.star:hover {
     color: gold;
 
 }
@@ -208,7 +210,8 @@ nav {
     padding: 10px;
 
 }
-.textP{
+
+.textP {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
@@ -225,7 +228,8 @@ h2 {
 
     border: double;
 }
-.videoFlex{
+
+.videoFlex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,36 +239,73 @@ h2 {
 /*MEDIA QUERIS*/
 
 
-@media (max-width:300px){
-    .txtH2{
-  font-size: 30px;      
+@media (max-width:300px) {
+    .txtH2 {
+        font-size: 30px;
     }
-    }
+}
 
-@media (max-width:300px){
-    .textP{
+@media (max-width:300px) {
+    .textP {
         font-size: 15px;
         margin: -48px;
         padding: 32px;
     }
-    
+
 }
 
-@media (max-width:340px){
-   .videoCm{
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    padding: 17px;
-   }
-    
-}
-@media (min-width:350px) and (max-width:700px){
-    .videoCm{
-     width: 500px;
-     height: 300px;
-     margin: 10px;
-     padding: 17px;
+@media (max-width:340px) {
+    .videoCm {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+        padding: 17px;
     }
-     
- }
+
+}
+
+@media (min-width:350px) and (max-width:700px) {
+    .videoCm {
+        width: 500px;
+        height: 300px;
+        margin: 10px;
+        padding: 17px;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:700px) {
+    .contenedor {
+        display: grid;
+        grid-template-areas:
+            "header header header"
+            "nav nav nav"
+            " . imagen ."
+            "texto texto texto"
+            " . imagenDos ."
+            "textoDos textoDos textoDos";
+            gap: 20px 20px;
+        
+        }
+
+        .seccionDos{
+            margin: 19px;
+            padding: 9px;
+        }
+        .seccionCuatro{
+            margin: 19px;
+            padding: 9px;
+        }
+  
+        .seccionUno img {
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+        }
+        .seccionTres img {
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+        }
+
+    }
