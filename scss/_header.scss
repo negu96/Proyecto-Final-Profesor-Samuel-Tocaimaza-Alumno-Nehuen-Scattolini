@@ -1,0 +1,24 @@
+header {
+	grid-area: header;
+	.logoNavb {
+		width: 15rem;
+	}
+	.fuenteNav {
+		font-size: 1.1rem;
+		padding-left: 2rem;
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: 700;
+		li {
+			a {
+				&:hover {
+					background-color: #80AF9A;
+					color: white;
+				}
+			}
+		}
+	}
+}
+nav{
+	grid-area: nav;
+}

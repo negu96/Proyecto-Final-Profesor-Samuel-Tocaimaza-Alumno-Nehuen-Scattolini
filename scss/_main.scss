@@ -1,0 +1,139 @@
+main {
+
+    .colorDeTexto {
+        color: #fff;
+    }
+
+    .tamañoDeTexto {
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .boton {
+        transition: all 2s;
+            &:hover {
+                color: #fff;
+                background-color: #26533f;
+                text-transform: uppercase;
+                transform: scale(1.8,1.8);
+                
+
+            }
+        
+    }
+
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 130px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+
+    .tamañoForm {
+        width: 18rem;
+    }
+
+    .fontF {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+   
+
+   .imgMP {
+        margin-left: -10rem;
+        padding-top: 6rem;
+    }
+   .imgMP2{
+    margin-left: 24rem;
+    margin-top: -35rem;
+
+   }
+
+    .textoH2 {
+       background-color: #284f3e;
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+
+    }
+    .parrafoQS{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+      margin-left: -7rem;
+        margin-right: -18rem;
+        margin-top: 8rem;
+        padding: 1rem;
+        text-align: center;
+
+    }
+    .parrafoQS2{
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+       margin-left: -27rem;
+        margin-right: 22rem;
+        margin-top: 9rem;
+        padding: 1rem;
+        text-align: center;
+
+    }
+
+	.textoCm {
+	
+		font-family: 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		margin: 17px;
+		padding: 10px;
+	}
+	.textP {
+		font-family: 'Montserrat', sans-serif;
+		font-weight: normal;
+		text-transform: uppercase;
+        font-size: 20px;
+        color: #fff;
+	}
+	h2 {
+		font-weight: bold;
+		text-decoration: underline;
+		color: #fff;
+        background-color: #284f3e;
+	}
+	.videoCm {
+		border: double;
+        
+	}
+	.videoFlex {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+
+}
+
+.imagenDeHome {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.cajaQuienesSomos {
+    background: linear-gradient(to right, #225c42, #69c199);
+}
+.xxx{
+    overflow-x: hidden
+}

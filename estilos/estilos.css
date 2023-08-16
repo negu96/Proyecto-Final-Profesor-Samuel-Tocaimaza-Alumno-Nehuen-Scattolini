@@ -1,311 +1,205 @@
-/*Fuente*/
-
-@import url('https://fonts.googleapis.com/css2? familia= Montserrat:ital,peso@0,400;0,500;0,800;1,900 & display=swap');
-
-
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-
-}
-
-body {
-    background-color: #80AF9A;
-}
-
-/*NavBar*/
-.logoNavb {
-    width: 15rem;
-
-}
-
-.fuenteNav {
-    font-size: 1.1rem;
-    padding-left: 2rem;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
-.fuenteNav li a:hover {
-    background-color: #80AF9A;
-    color: white;
-}
-
-/*Pagina de Home*/
-.imagenDeHome {
-    background-image: url(../Img/fondo.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.colorDeTexto {
-    color: #fff;
-}
-
-.tamañoDeTexto {
-    font-size: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
-
-.boton a:hover {
-    background-color: #40dd97;
-
-}
-
-h1 {
-    font-family: "Montserrat", sans-serif;
-    ;
-    color: white;
-    font-size: 130px;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold
-}
-
-/* Footer*/
-footer {
-
-    background-color: rgb(57, 49, 49);
-}
-
-
-/* Nuestras Plantas*/
-
-.txtH2 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 40px;
-}
-
-.txtPlanta {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    color: #2d7f5a;
-    font-weight: 600;
-
-}
-
-.txtP {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-
-}
-
-.btnCard {
-    color: #fff;
-    background-color: #2d7f5a;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-}
-
-
-/*Ubicacion y Contacto*/
-.mapa {}
-
-.tamañoForm {
-    width: 18rem;
-}
-
-.fontF {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.star {
-    font-size: 32px;
-    color: #bbb;
-    transition: color 0.3s;
-    cursor: pointer;
-}
-
-.star:hover {
-    color: gold;
-
-}
-
-
-
-/*Estilo a Quienes Somos*/
-
-.contenedor {
-    display: grid;
-    grid-template-areas:
-        "header header header"
-        "nav nav nav"
-        " imagen  texto texto"
-        " imagenDos  textoDos textoDos"
-    ;
-    gap: 20px 20px;
-}
-
+@charset "UTF-8";
 header {
-    grid-area: header;
+  grid-area: header;
+}
+header .logoNavb {
+  width: 15rem;
+}
+header .fuenteNav {
+  font-size: 1.1rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+header .fuenteNav li a:hover {
+  background-color: #80AF9A;
+  color: white;
 }
 
 nav {
-    grid-area: nav;
+  grid-area: nav;
 }
 
-.seccionUno {
-    grid-area: imagen;
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #80AF9A;
 }
 
-.seccionUno img {
-    width: 400px;
-    height: 400px;
+.txtH2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 50px;
+  background-color: #10432c;
 }
 
-.seccionDos {
-    grid-area: texto;
-    background-color: aliceblue;
-    border: solid black;
+.txtPlanta {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d7f5a;
+  font-weight: 600;
 }
 
-.seccionDos p {
-    text-align: center;
-
-
+.txtP {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
-.seccionTres {
-    grid-area: imagenDos;
-
+.btnCard {
+  color: #fff;
+  background-color: #39a173;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  transition: all 2s;
+}
+.btnCard:hover {
+  color: #fff;
+  background-color: #113022;
+  transform: scale(1.8, 1.8);
+  font-size: 25px;
+  text-transform: uppercase;
 }
 
-.seccionTres img {
-    width: 400px;
-    height: 400px;
+.cardP {
+  padding: 1rem;
 }
 
-.seccionCuatro {
-    grid-area: textoDos;
-    background-color: aliceblue;
-    border: solid black;
+.star {
+  font-size: 32px;
+  color: #bbb;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+.star:hover {
+  color: gold;
 }
 
-/*Como Trabajamos*/
-.imagenDeCarrusel {
-    width: 100vw;
-
+@media (min-width: 350px) and (max-width: 700px) {
+  .textP {
+    margin: 5rem;
+    margin-right: 2rem;
+  }
+}
+main .colorDeTexto {
+  color: #fff;
+}
+main .tamañoDeTexto {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+main .boton {
+  transition: all 2s;
+}
+main .boton:hover {
+  color: #fff;
+  background-color: #26533f;
+  text-transform: uppercase;
+  transform: scale(1.8, 1.8);
+}
+main h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 130px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .tamañoForm {
+  width: 18rem;
+}
+main .fontF {
+  font-family: "Montserrat", sans-serif;
+}
+main .imgMP {
+  margin-left: -10rem;
+  padding-top: 6rem;
+}
+main .imgMP2 {
+  margin-left: 24rem;
+  margin-top: -35rem;
+}
+main .textoH2 {
+  background-color: #284f3e;
+  color: #fff;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+main .parrafoQS {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: -7rem;
+  margin-right: -18rem;
+  margin-top: 8rem;
+  padding: 1rem;
+  text-align: center;
+}
+main .parrafoQS2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-left: -27rem;
+  margin-right: 22rem;
+  margin-top: 9rem;
+  padding: 1rem;
+  text-align: center;
+}
+main .textoCm {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin: 17px;
+  padding: 10px;
+}
+main .textP {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+}
+main h2 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff;
+  background-color: #284f3e;
+}
+main .videoCm {
+  border: double;
+}
+main .videoFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.textoCm {
-    justify-content: center;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    margin: 17px;
-    padding: 10px;
-
+.imagenDeHome {
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
-.textP {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
+.cajaQuienesSomos {
+  background: linear-gradient(to right, #225c42, #69c199);
 }
 
-h2 {
-    font-weight: bold;
-    text-decoration: underline;
-    color: #fff;
-
+.xxx {
+  overflow-x: hidden;
 }
 
-.videoCm {
-
-    border: double;
+footer {
+  background-color: rgb(57, 49, 49);
 }
 
-.videoFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/*MEDIA QUERIS*/
-
-
-@media (max-width:300px) {
-    .txtH2 {
-        font-size: 30px;
-    }
-}
-
-@media (max-width:300px) {
-    .textP {
-        font-size: 15px;
-        margin: -48px;
-        padding: 32px;
-    }
-
-}
-
-@media (max-width:340px) {
-    .videoCm {
-        width: 300px;
-        height: 200px;
-        margin: 10px;
-        padding: 17px;
-    }
-
-}
-
-@media (min-width:350px) and (max-width:700px) {
-    .videoCm {
-        width: 500px;
-        height: 300px;
-        margin: 10px;
-        padding: 17px;
-    }
-
-}
-
-@media (min-width:300px) and (max-width:700px) {
-    .contenedor {
-        display: grid;
-        grid-template-areas:
-            "header header header"
-            "nav nav nav"
-            " . imagen ."
-            "texto texto texto"
-            " . imagenDos ."
-            "textoDos textoDos textoDos";
-            gap: 20px 20px;
-        
-        }
-
-        .seccionDos{
-            margin: 19px;
-            padding: 9px;
-        }
-        .seccionCuatro{
-            margin: 19px;
-            padding: 9px;
-        }
-  
-        .seccionUno img {
-            width: 300px;
-            height: 300px;
-            margin: 5px;
-        }
-        .seccionTres img {
-            width: 300px;
-            height: 300px;
-            margin: 5px;
-        }
-
-    }
+/*# sourceMappingURL=estilos.css.map */

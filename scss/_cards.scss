@@ -1,0 +1,50 @@
+.txtH2 {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 50px;
+	background-color: #10432c;
+}
+.txtPlanta {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	color: #2d7f5a;
+	font-weight: 600;
+}
+.txtP {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+}
+.btnCard {
+	color: #fff;
+	background-color: #39a173;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	transition: all 2s;
+	&:hover{
+color: #fff;
+background-color: #113022;
+transform: scale(1.8,1.8);
+font-size: 25px;
+text-transform: uppercase;
+
+
+}
+}
+.cardP {
+	padding: 1rem;
+
+}
+
+
+
+.star {
+	font-size: 32px;
+	color: #bbb;
+	transition: color 0.3s;
+	cursor: pointer;
+	&:hover {
+		color: gold;
+	}
+}
