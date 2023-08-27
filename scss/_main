@@ -1,1 +1,211 @@
+main {
 
+    
+
+
+    /*PAGINA INDEX*/
+    .colorDeTexto {
+        color: #fff;
+    }
+
+    .tamañoDeTexto {
+        font-size: 30px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+
+    .boton {
+        transition: all 2s;
+
+        &:hover {
+            color: #fff;
+            background-color: #26533f;
+            text-transform: uppercase;
+            transform: scale(1.8, 1.8);
+
+
+        }
+
+    }
+
+
+
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        color: white;
+        font-size: 130px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+
+    }
+
+    /* PAGINA QUIENES SOMOS*/
+
+    .imgQS {
+        width: 500px;
+        margin: 62px;
+        animation-delay: 0.9s;
+    }
+
+    .cajaFlex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .textoH2 {
+        background-color: #284f3e;
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Montserrat', sans-serif;
+        animation-delay: 0.3s;
+
+    }
+
+    .textoH3 {
+        text-decoration: underline;
+        background-color: #69c199;
+        color: black;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        animation-delay: 0.4s;
+
+    }
+
+    .textPQ {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #fff;
+        margin: 5px;
+        padding: 22px;
+        animation-delay: 0.6s;
+    }
+
+    /*PAGINA COMO TRABAJAMOS*/
+    .textoCm {
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        margin: 17px;
+        padding: 10px;
+        animation-delay: 0.5s;
+        font-weight: bold;
+        text-decoration: underline;
+        color: #fff;
+        background-color: #284f3e
+    }
+
+    .videoCm {
+        border: double;
+        margin: 1rem;
+        padding: 1rem;
+        animation-delay: 0.9s;
+    }
+
+    .cajaFlexCT {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: wrap;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .textP {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #fff;
+        animation-delay: 0.8s;
+    }
+
+    /*PAGINA UBICACION Y CONTACTO*/
+
+    .cajaFlexUbiContac {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row-reverse;
+
+    }
+
+    .divUC {
+        margin-right: 16rem;
+    }
+
+    .spanFlex {
+        display: flex;
+        justify-content: space-between;
+        animation-delay: 0.6s
+
+    }
+
+    .tamañoForm {
+        width: 50rem;
+        margin-left: 7rem;
+    }
+
+    .fontF {
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .textoH3UbiContacto {
+        background-color: #284f3e;
+        color: #fff;
+        font-size: 35px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        animation-delay: 0.4s;
+    }
+
+    .textUbiContacto {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        font-size: 30px;
+        color: #fff;
+        margin: 5px;
+        padding: 22px;
+        animation-delay: 0.6s;
+    }
+
+    .cajaFlexUbiContac2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+}
+
+
+
+
+
+
+.imagenDeHome {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.cajaQuienesSomos {
+    background: linear-gradient(to right, #225c42, #69c199);
+}
