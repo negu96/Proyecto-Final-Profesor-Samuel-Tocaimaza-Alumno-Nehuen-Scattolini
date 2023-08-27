@@ -1,7 +1,42 @@
-@media (min-width:350px) and (max-width:700px) {
-    .textP  {
-      margin: 5rem;
-      margin-right: 2rem;
-    }
+@media (min-width:350px) and (max-width:850px) {
+
+  .imgQS{
+    width: 100px;
+    margin: 5px;
+   }
+  .textPQ {font-size: 15px;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+
+
+
+  }
+  .cajaFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaFlex2{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+}
+.textoH2 {
+  background-color: #284f3e;
+   color: #fff;
+   font-size: 40px;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+
+}
+.slide img{
+	height: 230px;
+ 
+}
 
 }

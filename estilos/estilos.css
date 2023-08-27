@@ -21,11 +21,27 @@ nav {
   grid-area: nav;
 }
 
+.slide {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slide img {
+  height: 50vh;
+  align-items: center;
+}
+
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   background-color: #80AF9A;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
 }
 
 .txtH2 {
@@ -34,6 +50,7 @@ body {
   color: #fff;
   font-size: 50px;
   background-color: #10432c;
+  animation-delay: 0.3s;
 }
 
 .txtPlanta {
@@ -78,11 +95,39 @@ body {
   color: gold;
 }
 
-@media (min-width: 350px) and (max-width: 700px) {
-  .textP {
-    margin: 5rem;
-    margin-right: 2rem;
-  }
+.card1 {
+  animation-delay: 0.2s;
+}
+
+.card2 {
+  animation-delay: 0.3s;
+}
+
+.card3 {
+  animation-delay: 0.4s;
+}
+
+.card5 {
+  animation-delay: 0.5s;
+}
+
+.card6 {
+  animation-delay: 0.6s;
+}
+
+.card7 {
+  animation-delay: 0.7s;
+}
+
+.card8 {
+  animation-delay: 0.8s;
+}
+
+main {
+  /*PAGINA INDEX*/
+  /* PAGINA QUIENES SOMOS*/
+  /*PAGINA COMO TRABAJAMOS*/
+  /*PAGINA UBICACION Y CONTACTO*/
 }
 main .colorDeTexto {
   color: #fff;
@@ -110,60 +155,50 @@ main h1 {
   text-transform: uppercase;
   font-weight: bold;
 }
-main .tamañoForm {
-  width: 18rem;
+main .imgQS {
+  width: 500px;
+  margin: 62px;
+  animation-delay: 0.9s;
 }
-main .fontF {
-  font-family: "Montserrat", sans-serif;
-}
-main .imgMP {
-  margin-left: -10rem;
-  padding-top: 6rem;
-}
-main .imgMP2 {
-  margin-left: 24rem;
-  margin-top: -35rem;
+main .cajaFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 main .textoH2 {
   background-color: #284f3e;
   color: #fff;
   font-size: 50px;
   font-family: "Montserrat", sans-serif;
+  animation-delay: 0.3s;
 }
-main .parrafoQS {
-  font-size: 20px;
+main .textoH3 {
+  text-decoration: underline;
+  background-color: #69c199;
+  color: black;
+  font-size: 30px;
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  margin-left: -7rem;
-  margin-right: -18rem;
-  margin-top: 8rem;
-  padding: 1rem;
+  text-transform: uppercase;
   text-align: center;
+  font-weight: bold;
+  animation-delay: 0.4s;
 }
-main .parrafoQS2 {
-  font-size: 20px;
+main .textPQ {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  margin-left: -27rem;
-  margin-right: 22rem;
-  margin-top: 9rem;
-  padding: 1rem;
-  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  margin: 5px;
+  padding: 22px;
+  animation-delay: 0.6s;
 }
 main .textoCm {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin: 17px;
   padding: 10px;
-}
-main .textP {
-  font-family: "Montserrat", sans-serif;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-size: 20px;
-  color: #fff;
-}
-main h2 {
+  animation-delay: 0.5s;
   font-weight: bold;
   text-decoration: underline;
   color: #fff;
@@ -171,11 +206,71 @@ main h2 {
 }
 main .videoCm {
   border: double;
+  margin: 1rem;
+  padding: 1rem;
+  animation-delay: 0.9s;
 }
-main .videoFlex {
+main .cajaFlexCT {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  align-content: stretch;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+main .textP {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  animation-delay: 0.8s;
+}
+main .cajaFlexUbiContac {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+}
+main .divUC {
+  margin-right: 16rem;
+}
+main .spanFlex {
+  display: flex;
+  justify-content: space-between;
+  animation-delay: 0.6s;
+}
+main .tamañoForm {
+  width: 50rem;
+  margin-left: 7rem;
+}
+main .fontF {
+  font-family: "Montserrat", sans-serif;
+}
+main .textoH3UbiContacto {
+  background-color: #284f3e;
+  color: #fff;
+  font-size: 35px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  animation-delay: 0.4s;
+}
+main .textUbiContacto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #fff;
+  margin: 5px;
+  padding: 22px;
+  animation-delay: 0.6s;
+}
+main .cajaFlexUbiContac2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
 .imagenDeHome {
@@ -194,12 +289,43 @@ main .videoFlex {
   background: linear-gradient(to right, #225c42, #69c199);
 }
 
-.xxx {
-  overflow-x: hidden;
-}
-
 footer {
   background-color: rgb(57, 49, 49);
+}
+
+@media (min-width: 350px) and (max-width: 850px) {
+  .imgQS {
+    width: 100px;
+    margin: 5px;
+  }
+  .textPQ {
+    font-size: 15px;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+  }
+  .cajaFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cajaFlex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textoH2 {
+    background-color: #284f3e;
+    color: #fff;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
+  .slide img {
+    height: 230px;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
