@@ -326,6 +326,35 @@ footer {
   .slide img {
     height: 230px;
   }
+ .cajaFlexUbiContac {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  
+  }
+  .cajaFlexUbiContac2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .textUbiContacto {
+    font-size: 15px;
+  }
+  .tamañoForm {
+    width: 50rem;
+    margin-left: 7rem;
+  }
+   .mapa{
+    width: 100px;
+    height: 100px;
+  
+   }
+
 }
+
 
 /*# sourceMappingURL=estilos.css.map */
